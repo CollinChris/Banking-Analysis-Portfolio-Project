@@ -51,9 +51,9 @@ With the large amount of data, this project aims to analyze the dataset to find 
 ![Image](https://github.com/user-attachments/assets/2f172cbf-d355-4779-a1bf-0129e5364c3e)
 ![Image](https://github.com/user-attachments/assets/08f61d8d-3e8d-42e6-95e1-f060abdcc48a)
 
-- Step 5: Infer insights from created charts
-
 ### Python EDA Insights
+
+- Step 5: Infer insights from created charts
 
 ![Image](https://github.com/user-attachments/assets/79da924a-63d1-4014-ba0a-50c0880ba21b)
 
