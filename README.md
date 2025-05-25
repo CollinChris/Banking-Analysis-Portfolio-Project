@@ -48,7 +48,7 @@ With the large amount of data, this project aims to analyze the dataset to find 
 
 ![Image](https://github.com/user-attachments/assets/95853f0f-33fe-42bc-893d-6d35ecc47c02)
 ![Image](https://github.com/user-attachments/assets/e6bf129b-8f8f-4068-a986-e9bb22a7e769)
-![Image](https://github.com/user-attachments/assets/fd1a68e5-7310-4d6c-811f-b564d37e9b90)
+![Image](https://github.com/user-attachments/assets/2f172cbf-d355-4779-a1bf-0129e5364c3e)
 ![Image](https://github.com/user-attachments/assets/08f61d8d-3e8d-42e6-95e1-f060abdcc48a)
 
 - Step 5: Infer insights from created charts
