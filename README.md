@@ -59,43 +59,87 @@ With the large amount of data, this project aims to analyze the dataset to find 
 
 ### Power BI Dashboard creation
 
-- Step 6 : Create pivot tables to prepare data for visualization.
+- Step 6 : Created measures for new features like Total Loans(Bank loans + Credit Card Balance + Business Lending) and Total Deposits(Bank Deposit + Savings Account + Foreign Currency Account +[Checking Accounts) for viewers to get an easier overview of past data.
+
+![Image](https://github.com/user-attachments/assets/90858ee2-bf9a-44b1-b2c3-9fac9ac0279d)
+
+- Step 7 : Create Home page to display quick overview of loans and deposits, and to show other pages.
+
+![Image](https://github.com/user-attachments/assets/d7e2b908-c4c3-433b-b123-b79732424dcb)
 
 
+- Step 8 : Create Loan Analysis page to show breakdown of which demographics/types of loans make-up the total loans
 
-- Step 7 : Pick and test visualizations for our dashboard to consider what can provide the most value to our users. 
+![Image](https://github.com/user-attachments/assets/0bf876af-1340-44e9-906d-123962901e62)
 
+- Step 9 : Create Deposit Analysis page to show breakdown of which demographics/types of deposits make-up the total deposits
 
-- Step 8 : Loaded the Excel dataset connected from the SQL queried database.
+![Image](https://github.com/user-attachments/assets/73e2ef68-54a1-4cc8-8072-bc60c1843389)
 
-- Step 9 : Created similiar charts to the Excel with more visual formatting.
+- Step 10 : Extra page with all data to filter through for the backend if anyone requires specific information
 
-
+![Image](https://github.com/user-attachments/assets/0ab5de94-a061-430b-ae5d-a18889b4c6b9)
 
 
 # Insights & Possible Follow-Up Actions
 
-- 2018 had a significant drop in sales after April, resulting in the least profitable year so far, further analysis is required to find out the reason for such a drastic reduction in sales(for example, failed marketing campaigns, loss of certain sales reps, etc)
+## Insights 
+### - Home Page
+
+- Loan and Deposit Comparison – The total loans ($4.38bn) exceed the total deposits ($3.77bn), which suggests that business lending and personal loans are a significant revenue driver. Further analysis on loan repayment rates and risk exposure would be useful.Understanding customer behaviors around spending vs. saving could provide strategic insights for promotional offers or interest rate adjustments
+
+- Business Lending Impact – The business lending value ($698.73M) accounts for a notable portion of the overall loan portfolio. Understanding sector-wise lending breakdowns could provide insights into risk diversification. 
+
+### - Loan Analysis Page
+
+- Checking vs. Savings Accounts Distribution – Checking accounts hold $158.19M, while savings accounts have a significantly lower balance of $4.39K. This suggests that customers prefer keeping their money in transactional accounts rather than long-term savings.
+
+- Business Lending Relationship – A significant portion of funds ($698.73M) is allocated to business lending.
 
 
+### - Deposit Analysis Page
 
-- Baldwin Bikes is consistently the highest in sales each year, we may want to do a further comparison of how they run differently from the other stores to see if any strategies can be implemented to help the profitability of other stores. 
+- Foreign Currency Holdings – The foreign currency amount stands at $89.65M, suggesting a notable portion of deposits are held in non-local currencies, which could be influenced by international clients or forex investment strategies.
 
+- Savings vs. Checking Accounts – Savings accounts hold $698.73M, while checking accounts have a higher balance of $963.28M. This indicates that customers prefer transactional accounts over long-term savings, which may require incentives to encourage higher savings retention.
 
-- Mountain bikes have most of the share of sales and electric bikes are the least, depending on what direction the business decides, we can either provide a stronger marketing strategy for electric bikes or continue focusing on mountain bikes.
+- Income Band Deposit Distribution – Mid-income clients contribute the largest share of deposits ($1.09bn), followed by low-income ($0.5bn) and high-income ($0.42bn). This suggests that mid-income customers are the primary depositors, and targeted financial products could be designed for them.
 
+- Engagement Timeframe Impact – Clients with under 20 years of engagement hold the highest deposits ($1.4bn), followed by  over 20 years ($1.1bn),  under 10 years ($0.8bn), and under 5 years ($0.4bn). This indicates that long-term clients contribute significantly to deposit stability.
 
-
-- New York has the highest sales for bikes, we can do further analysis to find out why. Whether it's a specific demographic in New York that is more present so we can do targeted marketing in other regions, or it's just New York is more bike friendly so can decide on other strategies moving forward.
-
-
-
-- By identifying the top customers, we can do an analysis of the demographics of top bike purchasers to create targeted marketing strategies and conduct targeted surveys to find out why they are willing to spend more on bikes.
+- Nationality-Based Deposit Trends – European clients hold the highest deposits ($1.6bn), followed by Asian ($1.0bn), American ($0.6bn), Australian ($0.3bn), and African ($0.2bn). This suggests potential opportunities for region-specific banking strategies.
 
 
-- Marcelene Boyer & Venita Daniel are the top 2 leading sales reps by a significant margin, so the company should provide incentives for them to stay and share their sales strategies to the rest of the team.
+## Follow-Up Actions
 
+- Deposit Growth Strategies – Develop initiatives to attract higher deposits, such as promotional rates or bundled financial products.
+
+- Customer Segmentation – Analyze client demographics and transaction behaviors to optimize marketing strategies and engagement campaigns.
+
+- Cross-Sell Opportunities – Encourage customers to open savings accounts or explore investment opportunities to increase portfolio diversification.
+
+- Time-Based Comparisons – Implement a trend analysis over time to assess financial fluctuations and predict future growth
+
+- Encouraging Long-Term Savings – Introduce higher-interest savings accounts or incentives to encourage customers to retain funds in savings rather than checking accounts.
+
+- Deposit Retention Strategies – Identify patterns in deposit withdrawals and develop strategies to enhance stability, such as automatic savings plans or tiered interest rates.
+
+- Liquidity Management Optimization – Align deposit growth with lending needs to ensure the bank maintains a strong financial position.
+
+- Targeted Marketing Campaigns – Utilize demographic filters to create customized deposit promotions based on customer behaviors.
+
+- Foreign Currency Deposit Optimization – Assess forex trends and offer competitive exchange rates or investment options for foreign currency holders.
+
+- Income-Based Financial Products – Develop tailored banking solutions for mid-income depositors, such as flexible savings plans or investment portfolios.
+
+- Client Retention Initiatives – Strengthen engagement with long-term clients through loyalty programs or exclusive banking benefits.
+
+- Regional Banking Strategies – Expand services or marketing efforts based on nationality-based deposit trends to attract more deposits from underrepresented groups.
 
 # Summary
 
-- From the insights above, it can be shown how the dashboard can be used to find further insights for the users/business, and depending on which direction to stakeholders decide to go, we can use the relationships between the data to do further analysis to suggest the best courses of action and form business strategies.
+- The dashboard created provides a deeper understanding of deposit behaviors, loan distributions, customer segmentation, and financial correlations using Power BI and Python-driven exploratory data analysis. 
+
+- Key insights have revealed trends in savings, lending dynamics, client retention, and demographic influences, equipping financial decision-makers with actionable strategies to optimize banking products, mitigate risks, and enhance customer engagement.
+- 
+- By integrating structured follow-up actions, such as refining loan risk assessments, enhancing savings growth initiatives, and leveraging data-driven segmentation, this project establishes a valuable foundation for informed financial strategies, contributing to a more efficient and customer-centric banking ecosystem. 
