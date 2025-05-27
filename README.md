@@ -84,20 +84,20 @@ With the large amount of data, this project aims to analyze the dataset to find 
 # Insights & Possible Follow-Up Actions
 
 ## Insights 
-### - Home Page
+###  Home Page
 
 - Loan and Deposit Comparison – The total loans ($4.38bn) exceed the total deposits ($3.77bn), which suggests that business lending and personal loans are a significant revenue driver. Further analysis on loan repayment rates and risk exposure would be useful.Understanding customer behaviors around spending vs. saving could provide strategic insights for promotional offers or interest rate adjustments
 
 - Business Lending Impact – The business lending value ($698.73M) accounts for a notable portion of the overall loan portfolio. Understanding sector-wise lending breakdowns could provide insights into risk diversification. 
 
-### - Loan Analysis Page
+###  Loan Analysis Page
 
 - Checking vs. Savings Accounts Distribution – Checking accounts hold $158.19M, while savings accounts have a significantly lower balance of $4.39K. This suggests that customers prefer keeping their money in transactional accounts rather than long-term savings.
 
 - Business Lending Relationship – A significant portion of funds ($698.73M) is allocated to business lending.
 
 
-### - Deposit Analysis Page
+###  Deposit Analysis Page
 
 - Foreign Currency Holdings – The foreign currency amount stands at $89.65M, suggesting a notable portion of deposits are held in non-local currencies, which could be influenced by international clients or forex investment strategies.
 
